@@ -1,0 +1,13 @@
+diff --git a/node_modules/uni-ui-types/types/UniForms.d.ts b/node_modules/uni-ui-types/types/UniForms.d.ts
+index 845989f..66a4792 100644
+--- a/node_modules/uni-ui-types/types/UniForms.d.ts
++++ b/node_modules/uni-ui-types/types/UniForms.d.ts
+@@ -124,7 +124,7 @@ export interface UniFormsProps {
+    * @desc 校验部分表单，返回对应表单数据
+    * @param items 需要校验的字段
+    */
+-  validateFields: (items: string | string[]) => Promise<any>;
++  validateField: (items: string | string[]) => Promise<any>;
+   /**
+    * @desc 移除表单的校验结果
+    * @param items 需要移除校验的字段

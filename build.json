@@ -1,0 +1,19 @@
+{
+  "project_name": "scan-uniapp",
+  "module_name": "scan-uniapp",
+  "project_dir": "./",
+  "root_dir": "/usr/share/nginx/html",
+  "language": "javascript",
+  "organization": "oa",
+  "yaml_dir": "./yaml-canary",
+  "properties": {
+    "verify": {
+      "git": {
+        "check": false
+      },
+      "changelog": {
+        "check": false
+      }
+    }
+  }
+}

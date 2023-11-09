@@ -1,0 +1,19 @@
+diff --git a/node_modules/@dcloudio/types/uni-app/uni/legacy/uni.d.ts b/node_modules/@dcloudio/types/uni-app/uni/legacy/uni.d.ts
+index ae0010c..5174ef8 100644
+--- a/node_modules/@dcloudio/types/uni-app/uni/legacy/uni.d.ts
++++ b/node_modules/@dcloudio/types/uni-app/uni/legacy/uni.d.ts
+@@ -9090,6 +9090,14 @@ declare namespace UniNamespace {
+ declare const uni: UniNamespace.Uni;
+ 
+ interface Uni {
++    /**
++   * 向客户端发送事件，H5中会自动通过条件编译排除
++   * @param eventName 事件名称
++   * @param params 发送参数
++   * @param callback 回调
++   * @returns
++   */
++    sendNativeEvent: (eventName: string, params: Record<string, any>, callback: (result: any) => void) => void;
+     /**
+      * 将 Base64 字符串转成 ArrayBuffer 对象
+      *
