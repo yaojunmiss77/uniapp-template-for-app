@@ -6,7 +6,7 @@
     onLaunch: function (options) {
       console.log('小程序启动入参：', options);
       let baseUrl = '';
-      /** 如果在非H5的条件下，适用于真机调试模拟，真是调试情况下自行改动 */
+      /** 如果在非H5的条件下，适用于真机调试模拟，真机调试情况下环境自行改动 */
       // #ifndef H5
       baseUrl = 'http://dev-oa.ge.cn';
       // #endif
