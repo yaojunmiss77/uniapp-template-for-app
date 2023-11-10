@@ -15,7 +15,9 @@
         const { cookie, userInfo, baseUrl: outBaseUrl } = options.referrerInfo.extraData;
         baseUrl = outBaseUrl;
         uni.setStorageSync('isDebug', false);
+        /** H5调式环境中，无需塞入cookie，浏览器自动管理cookie;真机调试模式下由登录页面塞入cookie到storage中 */
         uni.setStorageSync('cookie', cookie);
+        /** 在开发调试模式下，userInfo会由登录页面塞入到storage中 */
         uni.setStorageSync('userInfo', userInfo);
       } else {
         /** 代表是开发调试模式 */
