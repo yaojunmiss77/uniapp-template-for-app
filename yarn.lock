@@ -6027,10 +6027,10 @@ uni-app-types@^0.1.7:
     "@dcloudio/types" "3.0.15"
     vue3 "npm:vue@^3.2.41"
 
-uni-oaview@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/uni-oaview/-/uni-oaview-1.1.1.tgz#97c6c1a8b3fcc27bb0a4a4f0372e952b238534ca"
-  integrity sha512-BwT3PT45ZWStM27sfFV+netAkrhzj/OW6KkLMsLO+5EMJdR5a019ZXjOyuWy39CavW9yf+nZ5YW78k28MSsdvg==
+uni-oaview@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/uni-oaview/-/uni-oaview-1.1.5.tgz#9a5853b4cf2b09504b72bce265eac1d810beccb0"
+  integrity sha512-3aymt/MnC1VtFbvSKX9v9eBkypBfVEFdhi4ZtBelE4ptO4H9vwKhqUV6CkDTFRyw2ALRgKE6HSLgm9/sswJWOg==
   dependencies:
     element-china-area-data "5.0.2"
 
